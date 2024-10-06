@@ -17,14 +17,3 @@ This is a simple web application built using Node.js and Express.js that provide
 - **API Testing**: Postman or cURL (for testing the APIs)
 
 ## API Endpoints
-
-### Create a Post
-- **URL**: `/posts/new`
-- **Method**: `POST`
-- **Description**: Adds a new post to the database.
-- **Request Body**:
-  ```json
-  {
-    "title": "Post Title",
-    "content": "Post Content"
-  }
