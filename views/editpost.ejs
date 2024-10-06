@@ -1,0 +1,23 @@
+<%-include("include/boilerplate.ejs") %>
+<link rel="stylesheet" href="/index.css">
+<link rel="stylesheet" href="/editpost.css">
+</head>
+<body>
+    <h1> <%= p.username%></h1>
+    <div class="contentedit">
+        <h3><%=`${p.tags}__`%></h3>
+        (<%=p.timestamp%>)
+        <br>
+        <br>
+        <%= p.content%>
+        <br>
+        <br>
+        <%= p.detailed_content%>
+</div>
+    <form method="post" action="/posts/<%=p.id%>?_method=PATCH">
+        <textarea name="newContent"  placeholder="Add More Content Here..."></textarea>
+        <br>
+        <button type="submit">Edit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<%-include("include/boilerplate.ejs") %>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <h1>
+    PostHub
+    </h1>
+    <a class="addpost" href="http://localhost:8080/posts/new">
+        Add Your Post <i class="fa-solid fa-circle-plus"></i>
+    </a>
+    <div class="container">
+        <% for(let post of posts){%>
+            <div>
+             <h2><i class="fa-solid fa-circle-user"></i> <%= `${post.username}` %> </h2>(<%=`${ post.timestamp }`%> )
+              <div class="content">
+                 <%= `${post.content}` %>
+                 <br>
+              <span>#<%=post.tags%></span>
+              </div>
+              <img src="<%= post.image %>"alt="">
+              <br>
+             <a id="details" href="http://localhost:8080/posts/<%=post.id%>">In detail</a>
+             <a id="edit" href="http://localhost:8080/posts/<%=post.id%>/edit">Edit</a>
+             <form method="post" action="/posts/<%=post.id%>?_method=DELETE">
+                <button type="submit">DELETE</button>
+             </form>
+            </div>
+       <%}%>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.contentedit{
+    background-color: aliceblue;
+    margin: 50px;
+    padding: 20px;
+    font-size: large;
+    word-spacing: 10px;
+}
+form{
+    position: absolute;
+    left: 50px;
+}
+form textarea{
+   border: none;
+   width: 87.5vw;
+   height: 50px;
+   font-size: large;
+   padding: 50px;
+}
+form button{
+    background-color: rgb(133, 3, 3);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+
+}

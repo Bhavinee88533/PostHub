@@ -1,0 +1,35 @@
+<%-include("include/boilerplate.ejs") %>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <h1> <%= p.username%></h1>
+    <div class="container">
+       <img src="<%=p.image%>" alt="">
+        <div class="content" style="font-size: large;
+    word-spacing: 10px;">
+            <h3><%=`${p.tags}__`%></h3>
+           <h5>
+            (<%=p.timestamp%>)
+            <br>
+            <br>
+            <%= p.content%>
+           </h5>
+            <div class="content"style="font-size: large;
+            word-spacing: 10px;">
+                    <%= p.detailed_content%>
+                </div>
+            <span>
+                <i class="fa-solid fa-heart"></i><%= p.like_count%>
+            </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>
+                    <i class="fa-regular fa-comment"></i> <%= p.comment_count%>
+                </span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>
+                    <i class="fa-solid fa-share"></i><%= p.share_count%>
+                </span>
+        </div>
+    </div>
+</body>
+</html>
