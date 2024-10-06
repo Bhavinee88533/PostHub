@@ -16,4 +16,3 @@ This is a simple web application built using Node.js and Express.js that provide
 - **Middleware**: Body-parser
 - **API Testing**: Postman or cURL (for testing the APIs)
 
-## API Endpoints
