@@ -1,0 +1,100 @@
+{
+    "posts": [
+        {   
+            "id": "b2aa8780-5d04-4f3e-b16b-1228569ebcf1",
+            "username": "john_doe",
+            "content": "Just finished reading a great book called 'The Alchemist' by Paulo Coelho. It’s a story about following your dreams and listening to your heart. Highly recommend it to anyone who loves a good, inspirational read!",
+            "detailed_content": "Paulo Coelho’s masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His quest will lead him to riches far different—and far more satisfying—than he ever imagined. Santiago’s journey teaches us about the essential wisdom of listening to our hearts, recognizing opportunity and learning to read the omens strewn along life’s path, and, most importantly, to follow our dreams.",
+            "timestamp": "2024-08-01T14:30:00Z",
+            "tags": "book",
+            "image": "https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=1356&h=668&fit=crop",
+            "like_count": 120,
+            "share_count": 30,
+            "comment_count": 15
+        },
+        {   
+            "id": "b2aa8780-5d00-4f3e-b16b-1228569ebcf1",
+            "username": "jane_smith",
+            "content": "Excited about the upcoming tech conference next week! The lineup of speakers looks impressive, and I’m looking forward to the workshops on AI and machine learning. It’s going to be a fantastic opportunity to network and learn about the latest trends in technology.",
+            "detailed_content": "The conference will feature keynote speeches from leading experts in AI, panel discussions on the future of machine learning, and hands-on workshops where attendees can learn about the latest tools and techniques. It's a must-attend event for anyone interested in staying at the forefront of technology.",
+            "timestamp": "2024-08-02T09:15:00Z",
+            "tags": "conference",
+            "image": "https://a.storyblok.com/f/188325/1920x1280/41e681c422/alexandre-pellaes-6vajp0pscx0-unsplash-1-1.jpg",
+            "like_count": 85,
+            "share_count": 40,
+            "comment_count": 25
+        },
+        {
+            "id": "c1aa8780-5d04-4f3e-b16b-1228569ebcf1",
+            "username": "alex_jones",
+            "content": "Working on a new project at work that involves developing a mobile application for managing personal finances. It’s been a challenging yet rewarding experience, and I’m learning a lot about app development and user experience design. Can’t wait to see the final product!",
+            "detailed_content": "The mobile app will help users track their expenses, create budgets, and set financial goals. It will feature a user-friendly interface and various tools to provide insights into spending habits. Our team is working hard to ensure a seamless user experience and robust functionality.",
+            "timestamp": "2024-08-03T11:00:00Z",
+            "tags": "work", 
+            "image": "https://cdn.educba.com/academy/wp-content/uploads/2019/12/Mobile-Application-Software.jpg",
+            "like_count": 150,
+            "share_count": 60,
+            "comment_count": 35
+        },
+        {
+            "id": "b2aa8780-5d04-4f3e-b16b-9009069ebcf1",
+            "username": "emily_clark",
+            "content": "Loving the new restaurant in town called 'The Green Plate.' They serve a variety of fresh and delicious farm-to-table dishes. The atmosphere is cozy, and the service is excellent. Definitely a great place for a weekend brunch or dinner with friends.",
+            "detailed_content": "'The Green Plate' offers a menu full of seasonal and locally sourced ingredients. From farm-fresh salads to hearty main courses, every dish is crafted with care. The restaurant also features a selection of organic wines and craft beers. It's the perfect spot for food lovers.",
+            "timestamp": "2024-08-04T18:45:00Z",
+            "tags": "restaurant", 
+            "image": "https://assets.architecturaldigest.in/photos/64f84cc61d4896b633fba77a/master/w_1600%2Cc_limit/The%2520art%2520deco%2520inspired%2520de%25CC%2581cor%2520of%2520CIRQA%25201960%2520.jpg",
+            "like_count": 200,
+            "share_count": 50,
+            "comment_count": 40
+        },
+        {
+            "id": "hg004653-5d04-4f3e-b16b-1228569ebcf1",
+            "username": "samuel_lee",
+            "content": "Just started learning to play the guitar. It’s been a bit challenging to get the chords right, but it’s also incredibly rewarding. I’m taking online lessons and practicing every day. Looking forward to playing my favorite songs in the near future!",
+            "detailed_content": "Learning guitar has always been a dream of mine. I'm starting with basic chords and simple songs, but I hope to progress to more complex pieces over time. The online lessons are great, and I’m enjoying the process of making music.",
+            "timestamp": "2024-08-05T13:20:00Z",
+            "tags": "guitar",
+            "image": "https://cdn.prod.website-files.com/61796230edfd36b26f605bf8/65d60a8e9fcb69bd5eaabe50_How%20to%20use%20a%20guitar%20capo_resized%20(1)%20(1).webp",
+            "like_count": 130,
+            "share_count": 20,
+            "comment_count": 10
+        },
+        {
+            "id": "hg004653-5d04-78hg-b16b-1228569ebcf1",
+            "username": "sophia_martin",
+            "content": "Had a fantastic weekend hiking in the mountains. The trails were beautiful, and the views from the summit were breathtaking. It was a great way to unwind and connect with nature. If you enjoy hiking, I highly recommend exploring this trail.",
+            "detailed_content": "The hiking trail offered stunning views of the surrounding mountains and valleys. The weather was perfect, and the trail was well-marked and maintained. Reaching the summit was an incredible experience, and I took plenty of photos to capture the beauty.",
+            "timestamp": "2024-08-06T16:10:00Z",
+            "tags": "hiking",
+            "image": "https://cdn.prod.website-files.com/5ca5fe687e34be0992df1fbe/639abf0c915ba06c97a03c59_TREKKING%20MOUNTAIN%20AH22%20COL%20DES%20ARAVIS%20-%20001%20---%20Expires%20on%2014-04-2027.jpg",
+            "like_count": 175,
+            "share_count": 45,
+            "comment_count": 20
+        },
+        {
+            "id": "hg004653-5d04-4f3e-b16b-1229900ebcf1",
+            "username": "michael_rose",
+            "content": "Exploring new recipes in the kitchen has been a lot of fun lately. I’ve tried making homemade pasta and a few different sauces. It’s amazing how much better food tastes when you make it from scratch. If you have any recipe suggestions, feel free to share!",
+            "detailed_content": "Cooking from scratch has been a rewarding experience. I’ve experimented with different pasta recipes, including ravioli and fettuccine, paired with sauces like marinara and Alfredo. The process is therapeutic, and the results are delicious.",
+            "timestamp": "2024-08-07T10:05:00Z",
+            "tags": "cooking",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2024-07/240712-WTCTW-bd-main-c34bae.jpg",
+            "like_count": 110,
+            "share_count": 25,
+            "comment_count": 18
+        },
+        {
+            "id": "88533940-5d04-4f3e-b16b-1228569ebcf1",
+            "username": "lisa_wilson",
+            "content": "Attended an amazing workshop on digital marketing. The session covered everything from SEO to social media strategies. I learned a lot about how to effectively reach and engage with an online audience. Excited to apply these new strategies to my own projects!",
+            "detailed_content": "The digital marketing workshop was insightful and informative. We covered a range of topics, including search engine optimization, content marketing, and social media campaigns. The strategies discussed will be invaluable for boosting online presence and engagement.",
+            "timestamp": "2024-08-08T12:25:00Z",
+            "tags": "workshop",
+            "image": "https://www.learntek.org/wp-content/uploads/2020/01/Digital-marketing-Training-2.png",
+            "like_count": 95,
+            "share_count": 35,
+            "comment_count": 22
+        }
+    ]
+}
