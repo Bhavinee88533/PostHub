@@ -80,3 +80,94 @@ form button:hover{
     color: whitesmoke;
     background-color:rgb(133, 3, 3);
 }
+
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+    h1 {
+        padding-left: 40px;
+        font-size: 24px;
+    }
+
+    .container img,
+    .container div {
+        width: 50vw;
+    }
+
+    .container div .content {
+        width: 40vw;
+    }
+
+    .container div img {
+        width: 30vw;
+    }
+    body a {
+        width: auto;
+        padding: 6px 11px;
+        font-size: 14px;
+    }
+    #details,
+    #edit {
+        left: 120px;
+    }
+    form button {
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+
+    form button:hover {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    h1 {
+        padding-left: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .container img{
+        width: 90vw;
+        margin: 10px;
+    }
+    .container div {
+        width: 90vw;
+        margin: 10px;
+    }
+
+    .container div .content {
+        width: 80vw;
+    }
+
+    .container div img {
+        width: 50vw;
+    }
+
+    body a {
+        width: auto;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    #details,
+    #edit {
+        position: static;
+        margin-top: 10px;
+    }
+
+    form button {
+        font-size: 10px;
+        padding: 4px 9px;
+        margin: 10px;
+    }
+
+    form button:hover {
+        font-size: 13px;
+    }
+
+}
